@@ -12,7 +12,6 @@ def get_sentiment():
 
     #pickle
 
-    print(input_data)
     return {"input_data": input_data}
 
 if __name__ == "main":
