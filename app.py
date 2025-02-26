@@ -10,8 +10,7 @@ def hello():
 def get_sentiment():
     input_data = request.json
 
-    #TODO analyysi :D
-    # pickle
+    #pickle
 
     print(input_data)
     return {"input_data": input_data}
